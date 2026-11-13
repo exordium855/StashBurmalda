@@ -1,0 +1,13 @@
+name: StalkerStash
+version: '${project.version}'
+main: me.example.stash.StashPlugin
+api-version: '1.21'
+description: Personal stash opened via NPC only
+commands:
+  stash:
+    description: Управление тайником
+    usage: /stash <setpoint|points|removepoint|clearpoints|reload>
+permissions:
+  stash.admin:
+    description: Управление тайником
+    default: op
